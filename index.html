@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FocusFlow | Study Planner for Students</title>
+  <meta name="description" content="FocusFlow turns your deadlines into a simple daily study checklist, so you always know what to study next. Demo landing page for the Arithmatrix AVIP 2026 internship.">
+  <meta name="theme-color" content="#14213d">
+  <meta property="og:title" content="FocusFlow | Study Planner for Students">
+  <meta property="og:description" content="Plan your study week in minutes with a simple daily checklist.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+
+  <header class="site-header">
+    <div class="container nav-row">
+      <a href="#top" class="logo">FocusFlow</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a class="btn btn-small" href="#get-started">Get started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-title">Plan your study week in minutes.</h1>
+          <p class="lead">FocusFlow turns your deadlines into a short daily checklist, so you always know what to study next.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#planner">Try the demo planner</a>
+            <a class="btn btn-outline" href="#features">See features</a>
+          </div>
+        </div>
+
+        <div class="planner" id="planner" role="group" aria-labelledby="plannerTitle">
+          <p class="planner-title" id="plannerTitle">Today's plan <span>(interactive demo)</span></p>
+          <ul class="tasks">
+            <li><label><input type="checkbox" checked><span class="task-name">Read chapter 4: Biology</span></label><span class="time">45 min</span></li>
+            <li><label><input type="checkbox"><span class="task-name">Practice 10 maths problems</span></label><span class="time">30 min</span></li>
+            <li><label><input type="checkbox"><span class="task-name">Write history essay outline</span></label><span class="time">40 min</span></li>
+            <li><label><input type="checkbox"><span class="task-name">Review flashcards</span></label><span class="time">15 min</span></li>
+          </ul>
+          <div class="progress" id="progress" role="progressbar" aria-label="Tasks completed" aria-valuemin="0" aria-valuemax="4" aria-valuenow="1">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <p class="progress-text" id="progressText" aria-live="polite">1 of 4 tasks done</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <h2 id="features-title">Everything you need to stay on track</h2>
+        <p class="section-intro">Six simple tools, built for students with a full schedule.</p>
+        <div class="feature-grid">
+          <article class="card">
+            <h3>Weekly planner</h3>
+            <p>See every subject across the week on one screen and move sessions with a tap.</p>
+          </article>
+          <article class="card">
+            <h3>Deadline countdown</h3>
+            <p>Each assignment shows how many days are left, so nothing sneaks up on you.</p>
+          </article>
+          <article class="card">
+            <h3>Focus timer</h3>
+            <p>Start a 25-minute study block, then take a short break. Repeat when ready.</p>
+          </article>
+          <article class="card">
+            <h3>Subject colours</h3>
+            <p>Give each subject its own colour to spot your balance at a glance.</p>
+          </article>
+          <article class="card">
+            <h3>Progress tracking</h3>
+            <p>Tick off tasks and watch your daily progress bar fill up.</p>
+          </article>
+          <article class="card">
+            <h3>Works on any device</h3>
+            <p>Plan on your laptop, check your list on your phone between classes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <h2 id="how-title">How it works</h2>
+        <ol class="steps">
+          <li>
+            <h3>Add your subjects</h3>
+            <p>List your courses and pick a colour for each one.</p>
+          </li>
+          <li>
+            <h3>Enter your deadlines</h3>
+            <p>Add exam and assignment dates. FocusFlow spreads the work across your week.</p>
+          </li>
+          <li>
+            <h3>Follow today's checklist</h3>
+            <p>Open the app each day, finish the tasks, and track your progress.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="cta" id="get-started" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title">Ready to plan your week?</h2>
+        <p>FocusFlow is a concept product. Email us to say you want early access.</p>
+        <a class="btn btn-yellow" href="mailto:zeinabdawi10@gmail.com?subject=FocusFlow%20early%20access">Get early access</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 FocusFlow. A demo project built for the Arithmatrix AVIP 2026 internship (B.Y.T.E).</p>
+      <p><a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
