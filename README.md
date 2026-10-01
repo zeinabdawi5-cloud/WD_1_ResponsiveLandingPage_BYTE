@@ -4,8 +4,9 @@
 
 FocusFlow is a landing page for a **concept** study-planner app for students. The product is a demo created for this task; it is not a real app.
 
-**Live demo:** ADD_YOUR_LIVE_LINK_HERE
-**GitHub repository:** ADD_YOUR_REPO_LINK_HERE
+
+**Live demo:**  https://zeinabdawi5-cloud.github.io/WD_1_ResponsiveLandingPage_BYTE/
+**GitHub repository:** https://github.com/zeinabdawi5-cloud/WD_1_ResponsiveLandingPage_BYTE
 
 ## Task requirements and how they are met
 
